@@ -39,7 +39,6 @@ export default function Form() {
 
         console.log("URL de Stripe:", data.url);
 
-        // Redirección directa
         window.location.href = data.url;
     };
 
